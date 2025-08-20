@@ -21,16 +21,22 @@ The project covers both UI automation (Saucedemo) and API automation (GoREST), d
 
 **📂 Project Structure**
 src
- └── test
+ └── main
      ├── java
-     │    ├── runner          # Cucumber Test Runners
-     │    ├── stepdefinitions # Step Definitions (UI + API)
      │    ├── pages           # Page Objects for UI
      │    └── utils           # Helpers (API Utils, Config, Logging)
+  
+ src
+ └── test
+     ├── java.com
+     │    ├── hooks
+     │    ├── stepdefinitions # Step Definitions (UI + API)
+     │    ├── runner          # Cucumber Test Runners
      └── resources
           └── features        # Gherkin Feature Files
                ├── saucedemo.feature   # UI Scenarios
                └── gorest.feature      # API Scenarios
+
 
 **✅ Scenarios Covered**
 🔹 UI Automation – Saucedemo
@@ -64,4 +70,4 @@ Install Maven
 
 Clone this repository
 
-Go to the feature file and run it from the src/test/resources folder.
+Go to the CucumberSuite.java file and run it from the src/test/runner folder.
