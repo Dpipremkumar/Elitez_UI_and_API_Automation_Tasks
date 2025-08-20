@@ -50,7 +50,7 @@ src
 
   Fill customer details and complete the purchase.
 
-**🔹 API Automation – GoREST**
+**🔹 API Automation – RestAPI**
 
   Create a new user
 
