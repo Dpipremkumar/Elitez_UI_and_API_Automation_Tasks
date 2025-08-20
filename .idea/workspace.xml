@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="024a7980-5a70-42a9-8dc9-9adfcb086f48" name="Changes" comment="ADD api">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RestAPI/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation-SD/AutomationReports/Cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/Automation-SD/AutomationReports/Cucumber.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Automation-SD/BNYM_BDD_Reports/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/Automation-SD/BNYM_BDD_Reports/cucumber.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,10 +47,30 @@
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/welcome/Music/Elitez_UI_and_API_Automation_Tasks"
+    "last_opened_file_path": "C:/Users/welcome/Music/Elitez_UI_and_API_Automation_Tasks",
+    "onboarding.tips.debug.path": "C:/Users/welcome/Music/Elitez_UI_and_API_Automation_Tasks/RestAPI/src/main/java/org/crio_Java/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CucumberSuite">
+  <component name="RunManager" selected="Cucumber Java.Feature: gorest_users (1)">
+    <configuration name="Feature: gorest_users (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/RestAPI/src/test/resources/features/gorest_users.feature" />
+      <option name="GLUE" value="api com.hooks" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="RestAPI" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: gorest_users" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: gorest_users" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/GoREST/src/test/resources/features/gorest_users.feature" />
@@ -69,6 +86,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CucumberApiSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RestAPI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runners" />
+      <option name="MAIN_CLASS_NAME" value="runners.CucumberApiSuite" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,6 +122,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: gorest_users (1)" />
+        <item itemvalue="JUnit.CucumberApiSuite" />
         <item itemvalue="JUnit.CucumberSuite" />
         <item itemvalue="Cucumber Java.Feature: gorest_users" />
       </list>
@@ -126,5 +160,16 @@
     <MESSAGE value="package update" />
     <MESSAGE value="ADD api" />
     <option name="LAST_COMMIT_MESSAGE" value="ADD api" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/RestAPI/src/main/java/org/crio_Java/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
