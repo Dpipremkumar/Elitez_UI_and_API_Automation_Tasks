@@ -1,5 +1,6 @@
-package steps;
+package com.steps;
 
+import com.hooks.Hooks;
 import io.cucumber.java.en.*;
 import org.openqa.selenium.WebDriver;
 import pages.*;

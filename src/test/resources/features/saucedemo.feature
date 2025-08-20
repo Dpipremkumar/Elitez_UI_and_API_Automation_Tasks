@@ -1,4 +1,4 @@
-@ui
+@sauceDemo
 Feature: SauceDemo quality checks (POM + OR + API precheck)
 
   Background:
